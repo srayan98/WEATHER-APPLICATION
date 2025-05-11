@@ -6,13 +6,79 @@
   <link href="./style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body >
-  <div class="bg-center mt-2 flex justify-center gap-1.5 w-full h-10">
-  <div class="border h-7 mt-1 rounded-sm"><input type="text" placeholder="Enter a city name" class="text-center w-52"></div>
-  <div><button class="mt-1.5 ml-1.5 bg"><i class="fa-solid fa-magnifying-glass rounded-sm hover:scale-[1.1] active:scale-[1.4] hover:cursor-[pointer]"></i></button></div>
-</div>
-<p class="text-center">OR</p>
-<div class="flex justify-center"><button class="bg-blue-500 border w-60 hover:text-amber-50 hover:cursor-[pointer] active:scale-[1.1] rounded-md">Search with current location</i></button></div>
-
+<body>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <div class="search-bar bg-center mt-2 flex justify-center gap-1.5 w-full h-10">
+    <div class="border h-7 mt-1 rounded-sm"><input type="text" placeholder="Enter a city name" class="text-center w-52 bg-blue-50"></div>
+    <div><button class="mt-1.5 ml-1.5 bg"><i class="fa-solid fa-magnifying-glass rounded-sm hover:scale-[1.1] active:scale-[1.4] hover:cursor-[pointer]"></i></button></div>
+  </div>
+  <p class="text-center">OR</p>
+  <div class="flex justify-center"><button class="bg-blue-500 border w-60 hover:text-amber-50 hover:cursor-[pointer] active:scale-[1.1] rounded-md">Search with current location</i></button></div>
+    <div class="weather-icon text-center mt-1">
+      <img src="https://cdn-icons-png.flaticon.com/512/6142/6142570.png" alt="temperatureicon" class="mx-auto h-70 w-72 ">
+      <p class="date text-2xl hover:text-cyan-950">11.05.2025</p>
+      <p class="temp text-3xl">22°</p>
+      <p class="city text-3xl hover:text-fuchsia-900">New York</p>
+    </div>
+    <div class="flex text-center justify-evenly ">
+      <div class="">
+      <img src="https://static.thenounproject.com/png/2280622-200.png" alt="humidity icon" class="h-30 w-32">
+      <p class="humid">30%</p>
+      <p>Humidity</p>
+    </div>
+    <div>
+      <img src="https://static.thenounproject.com/png/1824196-200.png" alt="wind-speed icon" class="h-30 w-36">
+      <p class="wind-speed">19 km/h</p>
+      <p>Wind Speed</p>
+    </div>
+  </div>
+  <div class="block sm:flex sm:justify-around mt-7">
+    <div class="text-center lg:h-70 border md:h-70 md:w-40 sm:h-70 sm:w-40 sm:gap-1">
+      <p>12.05.2025</p>
+      <img src="https://cdn-icons-png.freepik.com/512/11166/11166805.png" alt="temperature icon" class="h-10 mx-auto">
+      <p>22°</p>
+      <img src="https://static.thenounproject.com/png/2280622-200.png" alt="humidity icon" class="h-10 mx-auto">
+      <p>53%</p>
+      <img src="https://static.thenounproject.com/png/1824196-200.png" alt="windspeed icon" class="h-10 mx-auto">
+      <p>11 km/h</p>
+    </div>
+    <div class="text-center lg:h-70 border md:h-70 md:w-40 sm:h-70 sm:w-40 sm:gap-1">
+      <p>13.05.2025</p>
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/009/585/430/small/rain-drop-from-cartoony-cloud-free-free-png.png" alt="temperature icon" class="h-10 mx-auto">
+      <p>19°</p>
+      <img src="https://static.thenounproject.com/png/2280622-200.png" alt="humidity icon" class="h-10 mx-auto">
+      <p>40%</p>
+      <img src="https://static.thenounproject.com/png/1824196-200.png" alt="windspeed icon" class="h-10 mx-auto">
+      <p>11 km/h</p>
+    </div>
+    <div class="text-center lg:h-70 border md:h-70 md:w-40 sm:h-70 sm:w-40 sm:gap-1">
+      <p>14.05.2025</p>
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/009/585/430/small/rain-drop-from-cartoony-cloud-free-free-png.png" alt="temperature icon" class="h-10 mx-auto">
+      <p>20°</p>
+      <img src="https://static.thenounproject.com/png/2280622-200.png" alt="humidity icon" class="h-10 mx-auto">
+      <p>75%</p>
+      <img src="https://static.thenounproject.com/png/1824196-200.png" alt="windspeed icon" class="h-10 mx-auto">
+      <p>16 km/h</p>
+    </div>
+    <div class="text-center lg:h-70 border md:h-70 md:w-40 sm:h-70 sm:w-40 sm:gap-1">
+      <p>15.05.2025</p>
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/009/585/430/small/rain-drop-from-cartoony-cloud-free-free-png.png" alt="temperature icon" class="h-10 mx-auto">
+      <p>22°</p>
+      <img src="https://static.thenounproject.com/png/2280622-200.png" alt="humidity icon" class="h-10 mx-auto">
+      <p>77%</p>
+      <img src="https://static.thenounproject.com/png/1824196-200.png" alt="windspeed icon" class="h-10 mx-auto">
+      <p>13 km/h</p>
+    </div>
+    <div class="text-center lg:h-70 border md:h-70 md:w-40 sm:h-70 sm:w-40 sm:gap-1">
+      <p>16.05.2025</p>
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/009/585/430/small/rain-drop-from-cartoony-cloud-free-free-png.png" alt="temperature icon" class="h-10 mx-auto">
+      <p>25°</p>
+      <img src="https://static.thenounproject.com/png/2280622-200.png" alt="humidity icon" class="h-10 mx-auto">
+      <p>74%</p>
+      <img src="https://static.thenounproject.com/png/1824196-200.png" alt="windspeed icon" class="h-10 mx-auto">
+      <p>10 km/h</p>
+    </div>
+  </div>
 </body>
 </html>
